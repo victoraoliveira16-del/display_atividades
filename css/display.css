@@ -1,0 +1,52 @@
+.flex {
+    display: flex;
+
+}
+
+.row {
+    flex-direction: row;
+}
+
+.row-reverse {
+    flex-direction: row-reverse;
+}
+
+.colums {
+    flex-direction: column;
+}
+
+.columns-reverse {
+    flex-direction: column-reverse;
+}
+
+.container {
+    max-width: 400px;
+    margin: 0 auto;
+    display: flex;
+    border: 1px solid #cccccc;
+}
+
+.item {
+    margin: 5px;
+    background: tomato;
+    text-align: center;
+    font-size: 1.5em;
+}
+
+/* .container {
+    max-width: 400px;
+    margin: 0 auto;
+    border: 1px solid #cccccc;
+} */
+
+h1 {
+    text-align: center;
+    margin: 20px 0 0 0;
+    font-size: 1.25em;
+    font-weight: normal;
+}
+
+body {
+    font-family: monospace;
+    color: #333333;
+}
